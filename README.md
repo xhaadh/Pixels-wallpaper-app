@@ -1,6 +1,40 @@
-# Welcome to your Expo app 👋
+# Welcome to your my Pixels Wallpaper Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Pixels is a modern, responsive wallpaper application built using Expo and React Native. The primary goal of this project is to offer users a seamless experience in browsing high-quality images fetched from the Pixabay API. The app is designed to work beautifully on all mobile devices and on the web, ensuring a consistent and engaging user interface regardless of screen size.
+
+Key Features:
+
+- Dynamic Image Loading:
+   The app retrieves images from the Pixabay API. With infinite scrolling enabled, additional images load automatically as the user scrolls down the page.
+
+- Powerful Search Functionality:
+   A fully functional search bar allows users to quickly search for images using keywords. The search feature is debounced for performance, ensuring that results are updated efficiently.
+
+- Category Filtering:
+   Users can select from a range of categories to view images tailored to their interests. When a category is selected, the app updates the displayed images to reflect only those that match the category.
+
+- Interactive Image View:
+   Tapping on any image brings up a detailed view where users have multiple options:
+    * Download: Save images locally to your device with ease.
+    * Share: Instantly share your favorite wallpapers with friends via native sharing options.
+    * View: Enjoy a full-screen view of the image with high resolution.
+
+- Responsive Design:
+   Built to be fully responsive, Pixels provides an optimal user experience whether you're on a smartphone, tablet, or desktop. The layout adapts seamlessly to different screen sizes.
+
+Technical Highlights:
+
+- Expo and React Native:
+   The app leverages the power and flexibility of Expo for React Native, ensuring rapid development and efficient cross-platform functionality.
+   
+- Pixabay API Integration:
+   All images are sourced via the Pixabay API, which provides a broad library of high-quality images. The API calls are managed with Axios and include proper error handling and dynamic URL formatting for search queries and category filters.
+
+- Smooth Performance:
+   The application uses debounced search inputs and dynamic infinite scroll to deliver a smooth browsing experience without performance hitches.
+
+- Modern Code Practices:
+   With the use of custom hooks, state management using React's useState and useEffect, and modularized components like ImageGrid and Categories, the codebase is organized and scalable, making future enhancements straightforward.
 
 ## Get started
 
@@ -16,35 +50,25 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+This will launch the Expo development server. You can run the app on a mobile device using the Expo Go app or in the web browser.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Whether you're searching for the perfect wallpaper or exploring modern cross-platform development, Pixels serves as both a practical application and an excellent example of using Expo and React Native to build responsive, interactive mobile and web apps.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+
+
+
+
+
