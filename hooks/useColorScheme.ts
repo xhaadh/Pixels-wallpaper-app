@@ -1,1 +1,4 @@
-export { useColorScheme } from 'react-native';
+export function useColorScheme() {
+    return 'light'; // 👈 hard-coded to ignore system preference
+  }
+  
