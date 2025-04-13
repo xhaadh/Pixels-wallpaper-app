@@ -117,7 +117,7 @@ const HomeScreen = () => {
       {/* header */}
       <View style={styles.header}>
         <Pressable onPress={() => scrollRef.current.scrollTo({ y: 0 })}>
-          <Text style={styles.title}>Pixels</Text>
+          <Text style={styles.title}>PixelsByShaadh</Text>
         </Pressable>
         <Pressable>
           <FontAwesome6 name="bars-staggered" size={22} color="black" />
